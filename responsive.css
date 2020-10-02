@@ -1,0 +1,125 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* css */
+}
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-social-item {
+    font-size: 35px;
+    padding-left: 80px;
+  }
+
+  .single-social-item i.fa {
+    font-size: 60px;
+  }
+  .single-pricing-item .boxed-btn {
+    font-size: 16px;
+    padding: 10px 5px;
+  }
+  .single-flow-state-item h3 {
+    font-size: 20px;
+  }
+
+  .single-flow-state-item {
+    font-size: 18px;
+  }
+}
+
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {
+  /* css */
+}
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+  .logo img {
+    max-width: 150px;
+  }
+
+  .header-area.header-absolute {
+    top: 130px;
+  }
+
+  .header-top-left {
+    text-align: center;
+  }
+
+  .header-top-right {
+    text-align: center;
+  }
+
+  .seen-on-logo img {
+    margin: 15px;
+  }
+
+  .single-social-item {
+    font-size: 40px;
+  }
+
+  .single-social-item i.fa {
+    top: 0;
+  }
+
+  .single-pricing-item {
+    margin-bottom: 15px;
+  }
+
+  .pricing-table-area .row {
+    margin: 0 -15px;
+  }
+
+  .pricing-table-area .col-lg-4 {
+    padding: 0 15px;
+  }
+
+  .single-pricing-item.item2 {
+    margin-top: 0;
+  }
+
+  .section-title h2,
+  .sug-area h2 {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .sug-right-img {
+    margin: 0 auto;
+  }
+
+  .footer-top-area h2 {
+    font-size: 35px;
+  }
+
+  .single-flow-state-middle-item {
+    margin-top: 0;
+    width: 60%;
+    margin-bottom: 15px;
+  }
+
+  .pricing-table-area .section-title {
+    margin-bottom: 40px;
+  }
+
+  .single-blog-item {
+    margin-bottom: 15px;
+  }
+}
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* css */
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-device-pixel-ratio: 2) {
+  /* css */
+}
